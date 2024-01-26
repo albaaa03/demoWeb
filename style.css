@@ -19,7 +19,7 @@
 	background-image: linear-gradient(
 		rgba(0,0,0,0.7),
 		rgba(0,0,0,0.7)),
-		url(imagenes/fondo.png);
+		url(fondo.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -31,7 +31,7 @@
 	background-image: linear-gradient(
 		rgba(0,0,0,0.7),
 		rgba(0,0,0,0.7)),
-		url(imagenes/fondo3.png);
+		url(fondo3.png);
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -159,7 +159,7 @@
 background-image: linear-gradient(
 		rgba(0,0,0,0.7),
 		rgba(0,0,0,0.7)),
-		url(imagenes/fondo2.png);
+		url(fondo2.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size:cover;
@@ -216,7 +216,7 @@ background-image: linear-gradient(
 }
 
 .general-2 {
-	background-image: url(imagenes/violetta.png);
+	background-image: url(violetta.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -224,7 +224,7 @@ background-image: linear-gradient(
 }
 
 .general-3 {
-	background-image: url(imagenes/tinitour.png);
+	background-image: url(tinitour.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
