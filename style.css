@@ -1,0 +1,313 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+ body {
+	font-family: 'Poppins', sans-serif;
+}
+
+ .container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+ .header {
+	background-image: linear-gradient(
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)),
+		url(imagenes/fondo.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+ .header2 {
+	background-image: linear-gradient(
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)),
+		url(imagenes/fondo3.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+ .menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+ 
+.menu .navbar ul li {
+	position: relative;
+	float: left;
+}
+.menu .navbar ul li a {
+	font-size:18px;
+	padding: 20px;
+	color: #FFFDFC;
+	display: block;
+	font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+	color: #CE967B;
+}
+#menu {
+	display: none;
+}
+.menu-icono {
+	width: 50px;
+}
+.menu label {
+	cursor: pointer;
+}
+
+.header-content {
+	text-align:center;
+}
+
+.header-content h1 {
+	font-size: 75px;
+	line-height:80px;
+	color: #FF0080;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.header-content p {
+	font-size: 16px;
+	color: #C5C5C5;
+	padding: 0 250px;
+	margin-bottom: 25px;
+}
+
+.btn-1 {
+	display: inline-block;
+	padding: 11px 35px;
+	background-color: #ff5aa4;
+	color: #F9FAFC;
+	text-transform: uppercase;
+}
+
+.btn-1:hover {
+	background-color: #ff96c5;
+}
+
+.biografía{
+	padding: 100px 0;
+	background-color: #E1E2E6;
+	position: relative;
+}
+
+.biografía-content {
+	text-align: center;
+}
+
+.biografía-content h2{
+	font-size: 55px;
+	line-height: 70px;
+	color: #f25278;
+	text-transform: uppercase;
+	padding: 0 250px;
+	margin-bottom: 15px;
+}
+
+.text-p {
+	font-size: 16px;
+	color: #414247;
+	padding: 0 250px;
+	margin-bottom: 35px;
+}
+
+.biografía-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.biografía-1 {
+	padding: 0 25px;
+}
+
+.biografía-1 img{
+	width:200px;
+}
+
+.biografía-img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.biografía-1 h3 {
+	color: black;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.discos {
+background-image: linear-gradient(
+		rgba(0,0,0,0.7),
+		rgba(0,0,0,0.7)),
+		url(imagenes/fondo2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	padding: 100px 0;
+}
+.discos-content {
+	text-align:center;
+}
+
+.discos-content h2 {
+	font-size: 55px;
+	line-height: 70px;
+	color: #F9FAFC;
+	text-transform:uppercase;
+	margin-bottom:50px;
+}
+
+.discos-content p {
+	font-size: 16px;
+	color: #C5C5C5;
+	margin-bottom: 50px;
+	padding: 0 100px;
+}
+
+.discos-group {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.discos-1 {
+	padding: 0 100px;
+}
+
+.discos-1 img {
+	width: 150px;
+	margin-bottom: 15px;
+}
+
+.discos-1 h3 {
+	color: #EACCB3;
+	font-size: 18px;
+}
+
+.general {
+	display: flex;
+}
+
+.general-1 {
+	width: 50%;
+	padding: 100px 250px 100px 100px;
+	background-color: #E1E2E6;
+}
+
+.general-2 {
+	background-image: url(imagenes/violetta.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+.general-3 {
+	background-image: url(imagenes/tinitour.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 50%;
+}
+
+h2 {
+	font-size: 55px;
+	line-height: 70px;
+	color: #ab49cc;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 16px;
+	color: #414247;
+	margin: 25px 0 45px 0;
+}
+.video{
+	background-color: #CE967B;
+}
+
+.colaboraciones {
+	padding: 100px 0;
+	text-align: center;
+}
+
+.colaboraciones-content {
+	display: flex;
+	justify-content:space-between;
+
+}
+
+.colaboraciones-1 img {
+	width: 250px;
+	border-radius: 15px;
+	margin-bottom: 15 px;
+}
+
+.colaboraciones-1 h3 {
+	font-size: 25px;
+	color: black;
+}
+
+.footer {
+	padding: 100px 0;
+	background-color: black;
+}
+
+.footer-content {
+color: white
+}
+
+
+.banner {
+	position: relative;
+	height: 50%;
+	width: 100%;
+}
+
+.tabla{
+	position: relative;
+	height:400px;
+	width:100%;
+	color: black;
+}
+
+.imagenes1{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.formulario{
+	position: relative;
+	width: 50%;
+	height: 100%;
+}
+
+.content {
+background-color:#EDEDED;
+}
+.button {
+border-radius: 25px;
+}

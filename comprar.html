@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>tiniweb</title>
+	<link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+
+	<header class="header">
+		
+		<div class="menu container">
+			<label for="menu">
+				<img src="imagenes/menu.png" class="menu-icono">
+			</label>
+			<nav class="navbar">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="productos.html">Productos</a></li>
+					<li><a href="contactanos.html">Contactanos</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header-content container">
+			
+			<h1>TINI</h1>
+			<a href="#" class="btn-1">Información</a>
+		</div>
+	</header>
+		<div><br><br>
+			<form action="index.html" method="post">
+				<fieldset>
+					<legend align="center">Datos de compra</legend>
+					<p align="center">Seleccione su talla:
+					<select name="talla">
+						<option>XS</option>
+						<option>S</option>
+						<option>M</option>
+						<option>L</option>
+						<option>XL</option>
+					</select>
+						<br>
+						Nº de tarjeta: <input type="text">
+						<br>
+						Dirección domicilio: <input type="text">
+						<br><br>
+						<input type="reset" value="Comprar">
+						<br>
+					</p>
+				</fieldset>
+			</form>
+		</div><br><br>
+		<div align="center">
+			<footer class="footer">
+		<div class="footer-content container">
+			<div class="link">
+				<h3><center>Realizado por Alba Castillejo</center></h3>
+			<br>
+			<script>
+				var f = new Date();
+				document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+			</script>
+		</div>
+		</footer>
+	</body>
+</html>
